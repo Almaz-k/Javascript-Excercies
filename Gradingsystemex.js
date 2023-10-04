@@ -2,19 +2,19 @@ let testScore = 90;
 let Grade= 'F';
 while(testScore>=50 && testScore <=100){
     if (testScore>=90 && testScore <=100){
-        grade='A';
+        Grade='A';
     }else if (testScore >=80 && testScore<=89){
-        grade='B';
+        Grade='B';
     }else if (testScore >=70 && testScore <=79){
-        grade='C'; 
+        Grade='C'; 
     }else if (testScore >=60 && testScore <=69){
-        grade='D';
+        Grade='D';
     } else{
-        grade='F';
+        Grade='F';
     }
 console.log(
     `test score=${testScore}
-    grade:"${grade}`);
+    grade:"${Grade}`);
     testScore-=10;
 };
 
