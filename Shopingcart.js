@@ -18,9 +18,9 @@ let taxAmount = (subtotal *taxRate)/100;
 let totalcost= subtotal + taxAmount;
 // Print Results
 
-console.log(`Price of Each Item: $`+ priceOfEachItem);
-console.log(`Quantity of Each Item: $`+ quantityofEachItem);
-console.log(`Subtotal:$`+ subtotal);
-console.log(`Discount Amount:$`+ discountAmount);
-console.log(`Tax Amount:$`+ taxAmount);
-console.log(`Total Cost:$` +totalcost);
+console.log(`Price of Each Item: ${priceOfEachItem}
+Quantity of Each Item: ${quantityofEachItem}
+Subtotal:${subtotal}
+Discount Amount:${discountAmount}
+Tax Amount:$ {taxAmount}
+Total Cost:${totalcost}`);
