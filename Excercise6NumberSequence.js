@@ -3,6 +3,7 @@
 // for our case we use while loop cuse the end of the numbers are not defined
 //10 +ve even number : if we divide the number by two and the reminder is zero.
 // how to achive it in JavaScript: use operators % 10%2 ==0
+
 for(let i=2;i<=20;i++){
     if(i%2==0){
         console.log(`number sequence:${i}`);
@@ -19,3 +20,9 @@ while(tenFirstPositiveNumberCounter<10){
     }
     i++;
 }
+console.log(`nUsing a do-whileloop`);
+let k=2;
+do{
+ console.log(k);
+ k+=2;
+} while(k>10);
