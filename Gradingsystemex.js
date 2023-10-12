@@ -1,4 +1,9 @@
-let testScore = 90;
+////let testScore=90;// only one score, but if you want to store 10 students score?
+let testScore=[95,85,76,65];// using array for multiple scores. used to store similar dataset in same variable.
+
+// while (true){
+// console.log(`am running forever!`);
+//} 
 let Grade= 'F';
 while(testScore>=50 && testScore <=100){
     if (testScore>=90 && testScore <=100){
