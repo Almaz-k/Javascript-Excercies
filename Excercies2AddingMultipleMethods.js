@@ -32,3 +32,4 @@ student.changeAddress(newStreet,newCity,newZipCode);
 console.log(`student city after modeification:${student.address.city}`);
 console.log(`student city after modeification:${student.address.street}`);
 console.log(`student city after modeification:${student.address.zipCode}`);
+console.log(student.address);
