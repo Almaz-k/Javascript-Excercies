@@ -8,5 +8,11 @@ button.addEventListener('click', ()=>{
     newList.className='taskList';
     newList.testContent ='${inputField.value}';
     ul.appendChild(newList);
+    // add a click event listner to the newly created list item for removal of items/ list
+newList.addEventListener('click',()=>{
+    ul.removeChild(newList);
+});
+// clearing the input field after adding the task
+inputFiled.value='';
 })
 
