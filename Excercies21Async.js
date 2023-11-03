@@ -15,3 +15,4 @@ function validateEmail(email, callback){
     }
 }
 validateEmail('nnkidane@gmail.com', printEmail);
+validateEmail('nnkidane@gmailcom', printEmail);
